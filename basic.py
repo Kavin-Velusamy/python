@@ -1,6 +1,3 @@
-#kavin try to finsh in last 3 days
-a=5245
-b=235256
-#egearhe
-#kavin is started
-gdlkhrtih
+print ("hello world") # string (set of character)-command
+#print()- inbulit function
+name="kavin" # name= variable (we can store the values)
