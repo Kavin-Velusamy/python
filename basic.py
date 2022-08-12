@@ -32,7 +32,7 @@ print(code + name + work)
 print(code+" "+name)
 print("python \n learning")
 print("python \t learning")
-
-
-
-
+print(code.isupper())        # if all the letter is upper(true)
+print(code.islower())        #if all the letter is lower ()
+print(len(code))             #finding the index of the word
+print(code.find("n"))
