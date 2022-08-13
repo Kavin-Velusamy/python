@@ -77,17 +77,123 @@
 # year=2021
 # print(name,leave,year)
 
-###Assignment
+###Assignment 1
 ###Dear Anand,
 ###You have 15 days of Leave Balance for this
 ###Year(2021)
 # name, leave, year ="Anand",15,2021
 # print("Dear " + name + ",\nYou have " + str(leave) + " days of Leave Balance for this\nYear("+ str(year)+")")
 
+# name, leave, year ="Anand",15,2021      #### this code is space error beacuse of (,) this  kama
+# print("Dear " , name , ",\nYou have " , str(leave) , " days of Leave Balance for this\nYear(", str(year),")")
+
+
+
 
 
 ### Getting the input from the user
-name=input(" Enter your name:")
-print("Hello"+ name)
+# name=input(" Enter your name:")
+# print("Hello"+ name)
+ 
+# height=float(input("Enter the height:"))
+# print(type(height))
+# height="{:.4f}".format(height/2.54)     ##{} this is for after the float value, 2 digit {:.2},4 digit {:.4}
+# print("Your height is "+ str(height) + "cm")
+# #print("Your are " + str(height/2.54) + "inches")
+# print("Your are " + height + " inches tall")
+
+
+###Assignment 2
+ 
+# ## Get user input
+# ## Name,Email ID and phone number.print the information like this
+# ##  ****************************
+# ##  UserName: XXXXX
+# ##  Email   : XXXXX
+# ##  ph      : XXXXX
+# ##  ***************************
+
+
+# Name=input("Enter the name : ")
+# Email=input("Enter the email id :")
+# Phoneno=input("Enter the Phone Number :")
+ 
+# print("*****************************")
+
+# print("UserName:",Name)
+# print("Email :",Email)
+# print("Ph :",Phoneno)
+
+# print("*****************************")
+
+
+
+# ## This is another type of code 
+# ## Assignment 2
+
+# Name=input("Enter the name : ")
+# Email=input("Enter the email id :")
+# Phoneno=input("Enter the Phone Number :")
+
+# print("*****************************")
+
+# print("UserName :" + Name + "\n   Email :" + Email + "\n      Ph :" + Phoneno )
+
+# print("*****************************")
+
+
+### Math operation
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
