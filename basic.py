@@ -71,13 +71,13 @@
 # #count="199"
 # print(number+"1")
 
-##Assignment
+##Assignment 1
 # name="Anand"
 # leave="15 days"
 # year=2021
 # print(name,leave,year)
 
-###Assignment 1
+###Assignment 1    #This is correct method
 ###Dear Anand,
 ###You have 15 days of Leave Balance for this
 ###Year(2021)
@@ -88,13 +88,10 @@
 # print("Dear " , name , ",\nYou have " , str(leave) , " days of Leave Balance for this\nYear(", str(year),")")
 
 
-
-
-
 ### Getting the input from the user
+
 # name=input(" Enter your name:")
 # print("Hello"+ name)
- 
 # height=float(input("Enter the height:"))
 # print(type(height))
 # height="{:.4f}".format(height/2.54)     ##{} this is for after the float value, 2 digit {:.2},4 digit {:.4}
@@ -113,7 +110,6 @@
 # ##  ph      : XXXXX
 # ##  ***************************
 
-
 # Name=input("Enter the name : ")
 # Email=input("Enter the email id :")
 # Phoneno=input("Enter the Phone Number :")
@@ -125,7 +121,6 @@
 # print("Ph :",Phoneno)
 
 # print("*****************************")
-
 
 
 # ## This is another type of code 
@@ -144,56 +139,45 @@
 
 ### Math operation
 
+# a=20
+# b=10
+# print(a+b , a-b , a*b , a/b , a/50 , b/30 , (a+b)*40 , a+b*30)      ##give output in float (/) division
+# print(10/2 , 20*3)
+# a=23.5
+# print(round(a))      # round is the absolute correct answer
+# a=-5
+# print(abs(a))        # ABS is the absolute value of a
+# a=5
+# print(abs(a))
+# print(pow(a,4))      # pow is the power of a
+# print(a**4)          # this is another mothod of power term
+ 
+# a=55
+# b=32
+# print(max(a,b))       # maximum value of a,b
+# print(min(a,b))       # minimum value of a,b
+ 
+# import math  # math module
+# a=45.6
+# print(math.ceil(a))
+# print(math.floor(a))
+# print(math.factorial(9))
+# a=6
+# print(a%2)
+# print(a%5)
+# print(a%9)
 
+### Assignment 3
 
+## Get user input 
+## Get the number n fron user.compute and print the follwoing values
+## 1.log2(n)
+## 2.cos(n)
+## 3.e**n
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+print(math.log(16))
+print(cos(16))
+print(e**16)
 
 
 
