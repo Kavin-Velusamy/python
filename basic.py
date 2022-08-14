@@ -32,7 +32,7 @@ FIFO (first in first out)
 #String=Tuple= immutable(we cannot change the value)
 #List= mutable 
 
-
+.
 ##variable 
 
 # print ("hello world")    # print()- inbulit function
