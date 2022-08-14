@@ -7,19 +7,19 @@
 
 # push
 # size=0
-# stack.push("a")      # adding one element
-# size=1
-#  stack.push("b")      # adding second  element
-# size=2
-# stack.push("c")      # adding third element
+# stack.push("a")      # adding one element                     
+# size=1                                                        c         third 
+#  stack.push("b")      # adding second  element                b       second
+# size=2                                                        a    we are adding first element
+# stack.push("c")      # adding third element                2323434    this is base element
 # size=3 
 
 # pop              # pop means it removes the first element
 # size=3
-# stack.pop()     # in pop  we added three element
+# stack.pop()     # in pop  we added  element
 # return =c       # we remove one element ,it returns c
 # size=2
-# stack.pop()     # in pop  we added three element
+# stack.pop()     # in pop  we added second  element
 # return =b       # we remove one element ,it returns b
 # size-1
 # stack.pop()     # in pop  we added three element
@@ -27,7 +27,17 @@
 # size=0
 
 # peek
-safsf
+# it will not change the element
+# size =3
+#return c
+
+# contain
+# it will find the element 
+# stack.contain("c")
+# return= true
+# stach.contin("d")
+# return= false
+# size=3
 
 
 
