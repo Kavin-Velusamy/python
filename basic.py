@@ -209,7 +209,7 @@
 # print(math.floor(a))
 # print(math.factorial(9))
 # a=6
-# print(a%2)
+# print(a%2)       # it will find the remainder
 # print(a%5)
 # print(a%9)
 
@@ -221,9 +221,52 @@
 ## 2.cos(n)
 ## 3.e**n
 
-print(math.log(16))
-print(cos(16))
-print(e**16)
+# print(math.log2(16))
+# print(math.cos(16))
+# print(math.e**16)
+# m=input("User input :")
+# n=int(m)
+# print("1.",int(math.log2(n)), "2.",int(math.cos(n)),"3.",int(math.e**n))
+
+
+ ### If Else (true/False)conditional 
  
+# pwd_correct= False
+# if pwd_correct:        #conditional statement
+#     print("logged in")
+# else:
+#     print("incorrect pwd")
+
+## Relational operator
+
+# num=35
+# if num<30:            # < lower number           #  == is it equal
+#     print("true")     # > higher number          #  != is it not equal
+# else:                 # <= same number or lower number
+#      print("false")   # >= same number or higher number 
+
+# num=14
+# if num%5==0:       # it is divisible by 5 means ,print true
+#     print("Multiple of 10")
+# else:
+#     print("Not multiple of 10")
+
+##Elif ladder
+
+# ind_score=150
+# if ind_score>=150:
+#     print("india won")
+# elif ind_score>=100:
+#     print("pak win")
+# elif ind_score>=90:
+#     print("Aus win")
+# else:
+#     print("jap win ")
+
+## Nested if
+
+
+
+
 
 
