@@ -1,5 +1,27 @@
 ###Basic of python
 
+stack
+LIFO (last in first out)
+methods
+push ,pop, peek ,contain
+push
+size=0
+stack.push("a")      # adding one element
+size=1
+
+
+
+
+
+
+queue 
+FIFO (first in first out)
+
+
+
+
+
+
 # int=3534654
 # string="any value" (Double arrow mark)
 # float=34.44     #decimal value
