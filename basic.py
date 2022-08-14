@@ -7,7 +7,7 @@ push ,pop, peek ,contain
 push
 size=0
 stack.push("a")      # adding one element
-size=1
+size=1.
 
 
 
