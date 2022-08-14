@@ -1,21 +1,34 @@
 ###Basic of python
 
-stack
-LIFO (last in first out)
-methods
-push ,pop, peek ,contain
-push
-size=0
-stack.push("a")      # adding one element
-size=1.
+# stack
+# LIFO (last in first out)
+# methods
+# push ,pop, peek ,contain
+
+# push
+# size=0
+# stack.push("a")      # adding one element
+# size=1
+#  stack.push("b")      # adding second  element
+# size=2
+# stack.push("c")      # adding third element
+# size=3 
+
+# pop              # pop means it removes the first element
+# size=3
+# stack.pop()     # in pop  we added three element
+# return =c       # we remove one element ,it returns c
+# size=2
+# stack.pop()     # in pop  we added three element
+# return =b       # we remove one element ,it returns b
+# size-1
+# stack.pop()     # in pop  we added three element
+# return =a       # we remove one element ,it returns a
+# size=0
+
+# peek
 
 
-
-
-
-
-queue 
-FIFO (first in first out)
 
 
 
@@ -32,7 +45,7 @@ FIFO (first in first out)
 #String=Tuple= immutable(we cannot change the value)
 #List= mutable 
 
-.
+
 ##variable 
 
 # print ("hello world")    # print()- inbulit function
@@ -200,6 +213,6 @@ FIFO (first in first out)
 print(math.log(16))
 print(cos(16))
 print(e**16)
-
+ 
 
 
