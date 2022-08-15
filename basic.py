@@ -265,6 +265,37 @@
 
 ## Nested if
 
+##check if the number is three digit number                      # A     B    And       OR
+##logical operation -and (or) or      # this method is 'and'     # T     T     T        T
+# num= int(input("Enter the number :"))                          # T     F     F        T
+# if num>99 and num<1000 :                                       # F     T     F        T
+#     if num%2==0:                                               # F     F     F        F
+#         print(str(num),"is the three digit number")
+# else:
+#     print(str(num) ,"is not a three digit number")  
+
+##This method is OR
+# name="kavin"
+# if name[0]=="k" or name[0]=="K":
+#     print("the name starts with s")
+
+
+###Bitwise operator
+## And , OR , Not , Exor , Leftshift , Rightshift
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
