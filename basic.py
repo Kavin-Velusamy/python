@@ -76,8 +76,8 @@
 # code="python learning"
 # work="'string'"
 # name="in github"
-# print(work)
-    # print(code.upper())         # fully captial letter 
+# print(work)     
+# # print(code.upper())         # fully captial letter 
 # print(code.lower())         #fully small letter
 # print(code.capitalize())    #first letter capital
 # print(code.title())         #firat letter and space after the letter is capital
@@ -123,7 +123,7 @@
 # year=2021
 # print(name,leave,year)
 
-###Assignment 1    #This is correct method
+###Assignment 1               #This is correct method
 ###Dear Anand,
 ###You have 15 days of Leave Balance for this
 ###Year(2021)
@@ -205,8 +205,8 @@
  
 # import math  # math module
 # a=45.6
-# print(math.ceil(a))    # ceil is the decimal value of 5
-# print(math.floor(a))   # floor is the decimal value of 4
+# print(math.ceil(a))    # ceil is the decimal value of a=5
+# print(math.floor(a))   # floor is the decimal value of a=4
 # print(math.factorial(9))   # factorial of 9
 # a=6
 # print(a%2)       # it will find the remainder
@@ -221,9 +221,9 @@
 ## 2.cos(n)
 ## 3.e**n
 
-# print(math.log2(16))
-# print(math.cos(16))
-# print(math.e**16)
+# # print(math.log2(16))
+# # print(math.cos(16))
+# # print(math.e**16)
 # m=input("User input :")
 # n=int(m)
 # print("1.",int(math.log2(n)), "2.",int(math.cos(n)),"3.",int(math.e**n))
@@ -231,7 +231,7 @@
 
  ### If Else (true/False)conditional 
  
-# pwd_correct= False
+# pwd_correct= True
 # if pwd_correct:        #conditional statement
 #     print("logged in")
 # else:
@@ -265,9 +265,9 @@
 
 ## Nested if
 
-##check if the number is three digit number                      # A     B    And       OR
-##logical operation -and (or) or      # this method is 'and'     # T     T     T        T
-# num= int(input("Enter the number :"))                          # T     F     F        T
+##check if the number is three digit number                      # A     B    And       OR     NOT
+##logical operation -and (or) or      # this method is 'and'     # T     T     T        T       0 = 1
+# num= int(input("Enter the number :"))                          # T     F     F        T       1 = 0
 # if num>99 and num<1000 :                                       # F     T     F        T
 #     if num%2==0:                                               # F     F     F        F
 #         print(str(num),"is the three digit number")
@@ -282,21 +282,54 @@
 
 ###Bitwise operator
 ## And , OR , Not , Exor , Leftshift , Rightshift
+#  left shift                                                 # Exor
+#  00001100 12<<1    it will leave the first no                  # a^b
+#  00011000 =24                                                  #  0 0 =0
+# Right shift                                                    #  1 0 =1
+# 00001100   12>>1                                               #  0 1 =1
+# 00000110 = 6                                                   #  1 1 =0
 
 
+###String slicing
+
+# name="kangani patti"
+# print(name[9])              #this will print the index value
+# print(name[0:7])
+# print(name[2:11])
+# print(name[1:12:2])       # this will print one after another value
+# print(name[-4])          # this will print in back side
+# print(name[::-1])
+# print(name[2:-2])
+# x=slice(2,-2)
+# print(name[x])
+
+####Assignment 4
+#str="Happy"
+# H                 y
+# Ha                py
+# Hap               ppy
+# Happ              appy
+# Happy             Happy
+
+# print("H          "+"y")
+# print("Ha         "+"py")
+# print("Hap        "+"ppy")
+# print("Happ       "+"appy")
+# print("Happy      "+"Happy")
+# str="Happy"
+# print(str[0])
+# print(str[:2])
+# print(str[:3])
+# print(str[:4])
+# print(str[:5])
+# print(str[-1])
+# print(str[-2:])
+# print(str[-3:])
+# print(str[-4:])
+# print(str[-5:])
 
 
-
-
-
-
-
-
-
-
-
-
-
+###List
 
 
 
