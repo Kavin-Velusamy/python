@@ -205,9 +205,9 @@
  
 # import math  # math module
 # a=45.6
-# print(math.ceil(a))
-# print(math.floor(a))
-# print(math.factorial(9))
+# print(math.ceil(a))    # ceil is the decimal value of 5
+# print(math.floor(a))   # floor is the decimal value of 4
+# print(math.factorial(9))   # factorial of 9
 # a=6
 # print(a%2)       # it will find the remainder
 # print(a%5)
