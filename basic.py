@@ -331,6 +331,129 @@
 
 ###List
 
+cities=["chennai","madurai","thricy" ,"coimbatore","salem"  ]
+val=[1,5,8,5,4,7]
+list=["salem",3 ,"namakkal"]
+print(list[2])
+print(val[4])
+print(cities[3])
+print(cities[:4])
+print(val[-4])
+print(cities)
+cities[2]="Thrichy"         # this will change the letter
+print(cities)      
+cities.append("sivakasi")    #inserting the element in last
+print(cities)
+cities.insert(2,"karur")     # inserting the element inside the place
+print(cities)
+delete=cities.pop()         # this will delete the last element and also say which element is deleted
+print(delete,"has been deleted")
+print(cities)
+del cities[2]             #this will delete the element
+print(cities)
+cities.remove("salem")   # we are giving the place to delete
+print(cities)
+print(sorted(cities))    # this will print in accending order
+print(sorted(val))
+# cities.sort()         # this is also sorting  
+# print(cities)
+cities.reverse()
+print(cities)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
