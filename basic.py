@@ -266,7 +266,8 @@
 ## Nested if
 
 ##check if the number is three digit number                      # A     B    And       OR     NOT
-##logical operation -and (or) or      # this method is 'and'     # T     T     T        T       0 = 1
+##logical operation -and (or) or      # this method is 'and'
+                                                                 # T     T     T        T       0 = 1
 # num= int(input("Enter the number :"))                          # T     F     F        T       1 = 0
 # if num>99 and num<1000 :                                       # F     T     F        T
 #     if num%2==0:                                               # F     F     F        F
@@ -331,37 +332,47 @@
 
 ###List
 
-cities=["chennai","madurai","thricy" ,"coimbatore","salem"  ]
-val=[1,5,8,5,4,7]
-list=["salem",3 ,"namakkal"]
-print(list[2])
-print(val[4])
-print(cities[3])
-print(cities[:4])
-print(val[-4])
-print(cities)
-cities[2]="Thrichy"         # this will change the letter
-print(cities)      
-cities.append("sivakasi")    #inserting the element in last
-print(cities)
-cities.insert(2,"karur")     # inserting the element inside the place
-print(cities)
-delete=cities.pop()         # this will delete the last element and also say which element is deleted
-print(delete,"has been deleted")
-print(cities)
-del cities[2]             #this will delete the element
-print(cities)
-cities.remove("salem")   # we are giving the place to delete
-print(cities)
-print(sorted(cities))    # this will print in accending order
-print(sorted(val))
+# cities=["chennai","madurai","thricy" ,"coimbatore","salem"  ]
+# val=[1,5,8,5,4,7]
+# list=["salem",3 ,"namakkal"]
+# print(list[2])
+# print(val[4])
+# print(cities[3])
+# print(cities[:4])
+# print(val[-4])
+# print(cities)
+# cities[2]="Thrichy"         # this will change the letter
+# print(cities)      
+# cities.append("sivakasi")    #inserting the element in last
+# print(cities)
+# cities.insert(2,"karur")     # inserting the element inside the place
+# print(cities)
+# delete=cities.pop()         # this will delete the last element and also say which element is deleted
+# print(delete,"has been deleted")
+# print(cities)
+# del cities[2]             #this will delete the element
+# print(cities)
+# cities.remove("salem")   # we are giving the place to delete
+# print(cities)
+# print(sorted(cities))    # this will print in accending order
+# print(sorted(val))
 # cities.sort()         # this is also sorting  
 # print(cities)
-cities.reverse()
-print(cities)
+# cities.reverse()
+# print(cities)       #  we can find how many value in list 
+# print(len(cities))
 
 
+###While Loop
+letter=' '
+while not letter.isalpha():
+  letter= input("enter the alphabet:")
+print("You have entered "+letter)
 
+#To print 1 t0 100
+num=1
+while num<=100:
+    print(num )
 
 
 
