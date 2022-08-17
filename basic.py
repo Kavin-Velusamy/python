@@ -364,10 +364,10 @@
 
 
 ###While Loop
-letter=' '
-while not letter.isalpha():
-  letter= input("enter the alphabet:")
-print("You have entered "+letter)
+# letter=' '
+# while not letter.isalpha():
+#   letter= input("enter the alphabet:")
+# print("You have entered "+letter)
 
 #To print 1 t0 100
 num=1
