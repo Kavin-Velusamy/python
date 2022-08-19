@@ -1,4 +1,3 @@
-
 # stack
 # LIFO (last in first out)
 # methods
