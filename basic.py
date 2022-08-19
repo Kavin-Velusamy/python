@@ -370,9 +370,9 @@
 # print("You have entered "+letter)
 
 #To print 1 t0 100
-num=1
-while num<=100:
-    print(num )
+# num=1
+# while num<=100:
+#     print(num )
 
 
 
