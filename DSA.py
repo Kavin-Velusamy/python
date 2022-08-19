@@ -1,3 +1,5 @@
+### DSA in python
+
 # stack
 # LIFO (last in first out)
 # methods
@@ -109,3 +111,25 @@
 # stack.pop()
 # print(stack)
 # print(stack) 
+
+## ARRAY 
+# ###
+# n=int(input("Enter the limit :"))
+# a=[]
+# print("Enter the number")
+# for i in range(n):
+#     a.append(input())
+# for i in range(n):
+#     print("a[",i,"]=",a[i])
+
+###sum of element in array
+n=int(input("Enter the Limit:"))
+a=[]
+sum=0
+print("Enter the element")
+for i in range (n):
+    a.append(int(input()))
+
+for i in range(n):   
+    sum+=a[i]
+print("sum of array",sum)
