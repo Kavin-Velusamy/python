@@ -369,8 +369,9 @@
 
 ##1.Get input number n from user. print all the factor of n
 ##2. Get a list of to do task from the user and add it to a to_do list.print the list
-##3.
-
+##3.Given an array of intrgers.find a peak element in it .An array element is the peak if it is NOT samller than its neighbours.
+## For corner element ,we need to consider only one neighbour.  Eg in..[3,4,6,7,5] -7 is a peak element.
+##4.List=[3,4,5,-2,-1,2,8,0,-4].Move all negative number to the end of list.
 
 
 
