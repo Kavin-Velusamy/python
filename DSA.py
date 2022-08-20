@@ -92,25 +92,25 @@
 #     else:
 #         print("Enter the correct operation")
 
-### stack using modules
+## stack using modules
 
-# import collections
-# stack=collections.deque()
-# print(stack)
-# stack.append(10)
-# stack.append(20)
-# stack.append(30)
-# stack.append(40)
-# print(stack)
-# stack.pop()
-# print(stack)
-# stack.pop()
-# print(stack)
-# stack.pop()
-# print(stack)
-# stack.pop()
-# print(stack)
-# print(stack) 
+import collections
+stack=collections.deque()
+print(stack)
+stack.append(10)
+stack.append(20)
+stack.append(30)
+stack.append(40)
+print(stack)
+stack.pop()
+print(stack)
+stack.pop()
+print(stack)
+stack.pop()
+print(stack)
+stack.pop()
+print(stack)
+print(stack) 
 
 ## ARRAY 
 # ###
@@ -123,13 +123,17 @@
 #     print("a[",i,"]=",a[i])
 
 ###sum of element in array
-n=int(input("Enter the Limit:"))
-a=[]
-sum=0
-print("Enter the element")
-for i in range (n):
-    a.append(int(input()))
 
-for i in range(n):   
-    sum+=a[i]
-print("sum of array",sum)
+# n=int(input("Enter the Limit:"))
+# a=[]
+# sum=0
+# print("Enter the element")
+# for i in range (n):
+#     a.append(int(input()))
+
+# for i in range(n):   
+#     sum+=a[i]
+# print("sum of array",sum)
+    
+    
+## find
