@@ -324,7 +324,7 @@
 #   letter= input("enter the alphabet:")
 # print("You have entered "+letter)
 
-#To print 1 t0 100
-# num=1
-# while num<=100:
-# print(num)
+##To print 1 t0 100
+num=1
+while num<=100:
+ print(num)
