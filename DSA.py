@@ -66,9 +66,9 @@
 
 # stack=[]
 # def push():
-##     if len(stack)==n:
-##         print("List is full")
-##      else:
+# #     if len(stack)==n:
+# #         print("List is full")
+# #      else:
 #         element=input("Enter the element:")
 #         stack.append(element)
 #         print(stack)
@@ -79,7 +79,7 @@
 #         e=stack.pop()
 #         print("removed element",e)
 #         print(stack)
-## n=int(input("Enter the limit"))        # this step for limit in stack 
+# # n=int(input("Enter the limit"))        # this step for limit in stack 
 # while True:
 #     print("Selected the operation 1.push 2.pop 3.quit")
 #     choice=int(input())
@@ -124,16 +124,16 @@
 
 # ###sum of element in array
 
-# # n=int(input("Enter the Limit:"))
-# # a=[]
-# # sum=0
-# # print("Enter the element")
-# # for i in range (n):
-# #     a.append(int(input()))
+n=int(input("Enter the Limit:"))
+a=[]
+sum=0
+print("Enter the element")
+for i in range (n):
+    a.append(int(input()))
 
-# # for i in range(n):   
-# #     sum+=a[i]
-# # print("sum of array",sum)
+for i in range(n):   
+    sum+=a[i]
+print("sum of array",sum)
     
     
 ### Queue 
@@ -161,10 +161,33 @@
 # queue.insert(0,20)
 # queue.insert(0,30)
 # print(queue)
-queue=[]
-def queue():
-    Element=int(input("Enter the element :"))
-    queue.append(Element)
-    print(Element)
+# queue=[]
+# def enqueue():
+#     element=int(input("Enter the element :"))
+#     queue.append(element)
+#     print(element,"is added in the queue")
+# def dequeue():
+#     if not queue:
+#         print("queue is empty")
+#     else:
+#         e=queue.pop(0)
+#         print(e,"removed element")
+# def display():
+#     return queue
+
+# while True:
+#     print("select the operation 1.add 2.remove 3.show 4.quit")
+#     choice=int(input())
+#     if choice==1:
+#         enqueue()
+#     elif choice==2:
+#         dequeue()
+#     elif choice==3:
+#         display()
+#     elif choice==4:
+#         break
+#     else:
+#         print("Enter the correct operation")
+
 
 
