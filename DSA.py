@@ -94,46 +94,77 @@
 
 ## stack using modules
 
-import collections
-stack=collections.deque()
-print(stack)
-stack.append(10)
-stack.append(20)
-stack.append(30)
-stack.append(40)
-print(stack)
-stack.pop()
-print(stack)
-stack.pop()
-print(stack)
-stack.pop()
-print(stack)
-stack.pop()
-print(stack)
-print(stack) 
+# import collections
+# stack=collections.deque()
+# print(stack)
+# stack.append(10)
+# stack.append(20)
+# stack.append(30)
+# stack.append(40)
+# print(stack)
+# stack.pop()
+# print(stack)
+# stack.pop()
+# print(stack)
+# stack.pop()
+# print(stack)
+# stack.pop()
+# print(stack)
+# print(stack) 
 
-## ARRAY 
-# ###
-# n=int(input("Enter the limit :"))
-# a=[]
-# print("Enter the number")
-# for i in range(n):
-#     a.append(input())
-# for i in range(n):
-#     print("a[",i,"]=",a[i])
+# ## ARRAY in qt
+# # ###
+# # n=int(input("Enter the limit :"))
+# # a=[]
+# # print("Enter the number")
+# #for i in range(n):
+# #     a.append(input())
+# # for i in range(n):
+# #     print("a[",i,"]=",a[i])
 
-###sum of element in array
+# ###sum of element in array
 
-# n=int(input("Enter the Limit:"))
-# a=[]
-# sum=0
-# print("Enter the element")
-# for i in range (n):
-#     a.append(int(input()))
+# # n=int(input("Enter the Limit:"))
+# # a=[]
+# # sum=0
+# # print("Enter the element")
+# # for i in range (n):
+# #     a.append(int(input()))
 
-# for i in range(n):   
-#     sum+=a[i]
-# print("sum of array",sum)
+# # for i in range(n):   
+# #     sum+=a[i]
+# # print("sum of array",sum)
     
     
-## find
+### Queue 
+### First in First out(FIFO)
+### Last in last out (LILO)
+## enqueue = adding the element in first queue
+## dequeue = removing the element in last queue
+
+# queue=[]
+# queue.append(10)
+# print(queue)
+# queue.append(50)
+# queue.append(20)
+# queue.append(30)
+# queue.append(40)
+# print(queue)
+# queue.pop(0)      ## we want to give the index
+# print(queue)
+# queue.pop()       ## this will remove in last element
+# print(queue)
+
+#enqueue
+# queue=[]
+# queue.insert(0,10)
+# queue.insert(0,20)
+# queue.insert(0,30)
+# print(queue)
+queue=[]
+def queue():
+    Element=int(input("Enter the element :"))
+    queue.append(Element)
+    print(Element)
+
+
