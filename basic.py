@@ -220,9 +220,9 @@
 
 ## Nested if
 
-##check if the number is three digit number                      # A     B    And       OR     NOT
-##logical operation -and (or) or      # this method is 'and'
-                                                                 # T     T     T        T       0 = 1
+# #check if the number is three digit number                      # A     B    And       OR     NOT
+# #logical operation -and (or) or      # this method is 'and'
+#                                                                  T     T     T        T       0 = 1
 # num= int(input("Enter the number :"))                          # T     F     F        T       1 = 0
 # if num>99 and num<1000 :                                       # F     T     F        T
 #     if num%2==0:                                               # F     F     F        F
@@ -319,12 +319,60 @@
 
 
 ###While Loop
+
 # letter=' '
-# while not letter.isalpha():
-#   letter= input("enter the alphabet:")
+# while letter.isalpha():
+#  letter= input("enter the alphabet:")
 # print("You have entered "+letter)
 
 ##To print 1 t0 100
-num=1
-while num<=100:
- print(num)
+# num=0
+# while num<=99:
+#   num+=1
+#   print(num,end=',')
+
+
+### For loop
+
+# for i in range (1,100):
+#     print(i,end=',')
+
+# list=[22,456,34234,566,345]
+# for i in list:
+#     print(i*i)
+
+# string=(2,35,"kavin",34,556)
+# for i in string:
+#     print(i)
+
+
+### simple Game
+### I am chossing the number below 10
+### reandomly I am chosing any number
+### its correct it will print
+### its wrong try again
+
+# import random
+# n=int(input("enter the limit:"))
+# num=random. randint(1,10)
+# guess=int(input("can u guess the no I am thinking "))
+# while num!=guess :
+#      if guess>num:                                                              ### dout
+#         print("your guess is higher")
+#      else:
+#         print("your guess is lower")
+#      guess=int(input("try again :"))
+# print("you won") 
+
+
+### Assignment 
+
+##1.Get input number n from user. print all the factor of n
+##2. Get a list of to do task from the user and add it to a to_do list.print the list
+##3.
+
+
+
+
+
+
