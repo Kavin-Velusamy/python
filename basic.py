@@ -352,17 +352,17 @@
 ### its correct it will print
 ### its wrong try again
 
-# import random
-# n=int(input("enter the limit:"))
-# num=random. randint(1,10)
-# guess=int(input("can u guess the no I am thinking "))
-# while num!=guess :
-#      if guess>num:                                                              ### dout
-#         print("your guess is higher")
-#      else:
-#         print("your guess is lower")
-#      guess=int(input("try again :"))
-# print("you won") 
+import random
+n=input("enter the limit:")
+num=random. randint(1,10)
+guess=int(input("can u guess the no I am thinking "))
+while num!=guess :
+    if guess>num:                                                              ### dout
+        print("your guess is higher")
+    else:
+        print("your guess is lower")
+        guess=int(input("try again :"))
+print("you won") 
 
 
 ### Assignment 
