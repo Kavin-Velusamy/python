@@ -55,14 +55,14 @@
 # # print(stack)
 # # stack.pop()
 # # print(stack)
-# print(stack[-2])
+# print(stack[-2])    # it will remove in last
 # print(stack[-1])
 
 # stack=[]              # this stack is empty
 # print(len(stack)==0)    # 0 is empty means true
 # print(stack)
 
-###Stack using list
+##Stack using list
 
 # stack=[]
 # def push():
@@ -140,7 +140,7 @@
 ### First in First out(FIFO)
 ### Last in last out (LILO)
 ## enqueue = adding the element in first queue
-## dequeue = removing the element in first queue
+## dequeue = removing the element in first  queue
 
 # queue=[]
 # queue.append(10)
@@ -154,7 +154,7 @@
 # print(queue)
 # queue.pop()       ## this will remove in last element
 # print(queue)
-
+                
 ##enqueue
 # queue=[]
 # queue.insert(0,10)
@@ -235,17 +235,18 @@
 # b=temp
 # print(a,b,temp)
 
+### Bubble sort
 
-# def sort(nums):
-#     for i in range (len(nums),-1,0,-1):
+# def bubble_sort(nums):
+#     for i in range (len(nums)-1,0,-1):
 #         for j in range (i):
 #             if nums[j]>nums[j+1]:
 #                 temp=nums[j]
 #                 nums[j]=nums[j+1]
 #                 nums[j+1]=temp
-            
+        
 # nums=[5,3,8,9,1,0,7]
-# sort(nums)
+# bubble_sort(nums)
 # print(nums)
 
 ## method of bubble sort 
@@ -257,9 +258,12 @@
 #                  temp=list[j+1]
 #                  list[j+1]=list[j]
 #                  list[j]=temp
-#         return(list)
 
-### Selection sort
+# list=[3,5,2,8,1,9]
+# bubble_sort(list)
+# print(list)
+
+# ### Selection sort
 
 # def sort(nums):
 #     for i in range(5):
@@ -275,8 +279,8 @@
 # sort(nums)
 # print(nums)
 
-##code of selectio
-# n sort 
+##code of selection sort
+#  
 # for i in range(5):
 #         minpos =i
 #         for j in range(i,6):
@@ -288,19 +292,18 @@
 
 # ### Insertion Sort
 
-arr=[2,4,7,8,0,5,45]
+# arr=[2,4,7,8,0,5,45]
 
-for i in range (len(arr)):
-    cur=arr[i]
-    for j in range (i-1,-1,-1):
-        if arr[j]>cur:
-            arr[j+1]=arr[j]
-        else:
-            arr[j+1]=cur
-            break
-for i in range (0,len(arr)):
-    print(arr[i],end=' ')       
-
+# for i in range (len(arr)):
+#     cur=arr[i]
+#     for j in range (i-1,-1,-1):
+#         if arr[j]>cur:
+#             arr[j+1]=arr[j]
+#         else:
+#             arr[j+1]=cur
+#             break
+# for i in range (0,len(arr)):
+#     print(arr[i],end=' ')       
 
 
 
