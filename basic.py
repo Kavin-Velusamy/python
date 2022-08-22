@@ -357,6 +357,8 @@ n=input("enter the limit:")
 num=random. randint(1,10)
 guess=int(input("can u guess the no I am thinking "))
 while num!=guess :
+    if len(guess)==0:
+        print("list is full")
     if guess>num:                                                              ### dout
         print("your guess is higher")
     else:
