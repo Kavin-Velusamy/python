@@ -289,21 +289,21 @@
 #         temp=min[i]
 #         min[i]=min[minpos]
 #         min[minpos]=temp
-
+ 
 # ### Insertion Sort
 
-# arr=[2,4,7,8,0,5,45]
+arr=[4,2,7,8,5,45]
 
-# for i in range (len(arr)):
-#     cur=arr[i]
-#     for j in range (i-1,-1,-1):
-#         if arr[j]>cur:
-#             arr[j+1]=arr[j]
-#         else:
-#             arr[j+1]=cur
-#             break
-# for i in range (0,len(arr)):
-#     print(arr[i],end=' ')       
+for i in range (len(arr)):
+    cur=arr[i]
+    for j in range (i-1,-1,-1):
+        if arr[j]>cur:
+            arr[j+1]=arr[j]
+        else:
+            arr[j+1]=cur
+            break
+for i in range (0,len(arr)):
+    print(arr[i],end=' ')       
 
 
 
