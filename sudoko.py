@@ -80,9 +80,42 @@
 
 # ### print table of a number accepted from user.
 
-num=int(input("Enter the table"))
-for i in range(1,11):
-    print(num*i)
+# num=int(input("Enter the table"))
+# for i in range(1,11):
+#     print(num*i)
+
+### Write a program to display product of the digits of a number accepted from the user.
+
+num=int(input("Enter the number :"))
+p=1
+while(num):
+    r=num%10                                              ##dout
+    p=p*r
+    num=num//10
+    print("print the product of digit is:",p)
+
+###Write a program to find the factorial of a number.
+
+# num=int(input("Enter te number :"))
+# f=1
+# for i in range(1,num+1):
+#     f=f*i
+#     print("Factorial is :",f)
+
+
+###Write a program to find the sum of the digits of a number accepted from user
+
+# num=int(input("Enter the number :"))
+# s=1
+# while(num):
+#     r=num%10                                              ##dout
+#     s=s+r
+#     num=num//10
+#     print("print the product of digit is:",s)
+
+
+###Write a program to check whether a number is prime or not.
+
 
 
 
