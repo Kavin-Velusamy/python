@@ -352,19 +352,19 @@
 ### its correct it will print
 ### its wrong try again
 
-import random
-n=int(input("enter the limit:"))
-num=random. randint(1,10)
-guess=int(input("can u guess the no I am thinking "))
-while num!=guess :
-    if len(guess)==n:
-     print("list is full")
-    if guess>num:                                                              ### dout
-        print("your guess is higher")
-    else:
-        print("your guess is lower")
-        guess=int(input("try again :"))
-print("you won") 
+#import random
+# n=int(input("enter the limit:"))
+# num=random. randint(1,10)
+# guess=int(input("can u guess the no I am thinking "))
+# while num!=guess :
+#     if len(guess)==n:
+#      print("list is full")
+#     if guess>num:                                                              ### dout
+#         print("your guess is higher")
+#     else:
+#         print("your guess is lower")
+#         guess=int(input("try again :"))
+# print("you won") 
 
 
 ### Assignment 
@@ -374,6 +374,23 @@ print("you won")
 ##3.Given an array of intrgers.find a peak element in it .An array element is the peak if it is NOT samller than its neighbours.
 ## For corner element ,we need to consider only one neighbour.  Eg in..[3,4,6,7,5] -7 is a peak element.
 ##4.List=[3,4,5,-2,-1,2,8,0,-4].Move all negative number to the end of list.
+
+
+
+
+
+
+####  Nested loop 
+
+
+for i in range (1,6):
+    for j in range (1,11):
+        print(j,end='')
+    print('')
+
+
+
+
 
 
 
