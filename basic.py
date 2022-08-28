@@ -383,15 +383,48 @@
 ####  Nested loop 
 
 
-for i in range (1,6):
-    for j in range (1,11):
-        print(j,end='')
-    print('')
+# for i in range (1,6):
+#     for j in range (1,11):
+#         print(j,end='')
+#     print('')
+
+''' QT
+*****
+*****
+*****
+*****
+*****
+'''
+# for i in range(5):
+#     for j in range(5):
+#         print("*",end='')
+#     print('') 
+
+
+## QT
+
+# *****
+# *   *
+# *   *
+# *   *
+# *****
+
+for i in range(5):
+    
 
 
 
 
-
-
-
+# *
+# **
+# ***
+# ****
+# *****
+row=6
+num=1
+for i in range(1,row+1):
+    for j in range(1,i+1):
+        print(num,end='')
+        num=num+1
+    print(\r)
 
