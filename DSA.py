@@ -46,15 +46,15 @@
 # stack.append(20)
 # stack.append(30)
 # stack.append(40)
-# # print(stack) 
-# # stack.pop()        # pop
-# # print(stack)
-# # stack.pop()
-# # print(stack)
-# # stack.pop()
-# # print(stack)
-# # stack.pop()
-# # print(stack)
+# print(stack) 
+# stack.pop()        # pop
+# print(stack)
+# stack.pop()
+# print(stack)
+# stack.pop()
+# print(stack)
+# stack.pop()
+# print(stack)
 # print(stack[-2])    # it will remove in last
 # print(stack[-1])
 
@@ -92,7 +92,7 @@
 #     else:
 #         print("Enter the correct operation")
 
-## stack using modules
+# # # stack using modules
 
 # import collections
 # stack=collections.deque()
@@ -101,7 +101,7 @@
 # stack.append(20)
 # stack.append(30)
 # stack.append(40)
-# print(stack)
+# print(stack) 
 # stack.pop()
 # print(stack)
 # stack.pop()
@@ -154,8 +154,9 @@
 # print(queue)
 # queue.pop()       ## this will remove in last element
 # print(queue)
-                
-##enqueue
+ 
+  
+# ##enqueue
 # queue=[]
 # queue.insert(0,10)
 # queue.insert(0,20)
