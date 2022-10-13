@@ -5,7 +5,7 @@
 # string="any value" (Double arrow mark)
 # float=34.44     #decimal value
 # List=[" "]      #list inside string
-# Tuple=()
+# Tuple=(,)
 #boolean=true,false
 
 #String=Tuple= immutable(we cannot change the value)
@@ -32,10 +32,10 @@
 # work="'string'"
 # name="in github"
 # print(work)     
-# # print(code.upper())         # fully captial letter 
+# print(code.upper())         # fully captial letter 
 # print(code.lower())         #fully small letter
 # print(code.capitalize())    #first letter capital
-# print(code.title())         #firat letter and space after the letter is capital
+# print(code.title())         #first letter and space after the letter is capital
 # print(code +" " + name + work)   #connecting the words or numbers
 # print(code+" "+name)        #space of the words
 # print("python \nlearning")    #this will print in next line
@@ -63,12 +63,12 @@
 
 ###Type casting
 
-#otp=3252363
-#otp=str(otp)     #type casting
-#print("Your otp is" + str(otp))
-#print(type(otp))
-#count,number=199,"199"
-#print(count+1)
+# otp=3252363
+# otp=str(otp)     #type casting
+# print("Your otp is" + str(otp))
+# print(type(otp))
+# count,number=199,"199"
+# print(count+1)
 # #count="199"
 # print(number+"1")
 
@@ -86,8 +86,7 @@
 # print("Dear " + name + ",\nYou have " + str(leave) + " days of Leave Balance for this\nYear("+ str(year)+")")
 
 # name, leave, year ="Anand",15,2021      #### this code is space error beacuse of (,) this  kama
-# print("Dear " , name , ",\nYou have " , str(leave) , " days of Leave Balance for this\nYear(", str(year),")")
-
+# print("Dear " , name , ",\nYou have " , leave , " days of Leave Balance for this\nYear(", str(year) ,")")
 
 ### Getting the input from the user
 
@@ -409,7 +408,7 @@
 # *   *
 # *****
 
-for i in range(5):
+# for i in range(5):
     
 
 
@@ -420,11 +419,11 @@ for i in range(5):
 # ***
 # ****
 # *****
-row=6
-num=1
-for i in range(1,row+1):
-    for j in range(1,i+1):
-        print(num,end='')
-        num=num+1
-    print(\r)
+# row=6
+# num=1
+# for i in range(1,row+1):
+#     for j in range(1,i+1):
+#         print(num,end='')
+#         num=num+1
+#     print(\r)
 
